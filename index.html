@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Miranti & Aldi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Undangan Pernikahan</h1>
+            <p>Dengan penuh rasa syukur, kami mengundang Anda untuk merayakan hari bahagia kami.</p>
+        </header>
+
+        <section class="details">
+            <h2>Detail Acara</h2>
+            <p><strong>Nama Pengantin:</strong> Miranti Ayu Utami & Aldi Lesmana</p>
+            <p><strong>Tanggal:</strong> 26 Febuari 2025</p>
+            <p><strong>Waktu:</strong> 09:00 - Selesai AM</p>
+            <p><strong>Lokasi:</strong> Bilabong Permai Blok C 2b/20, jln.GarudaII, Bojonggede, Bogor</p>
+        </section>
+
+        <section class="rsvp">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Mohon konfirmasi kehadiran Anda sebelum 5 Desember 2024.</p>
+            <form id="rsvpForm">
+                <label for="name">Nama Anda:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="attending">Apakah Anda akan hadir?</label>
+                <select id="attending" name="attending" required>
+                    <option value="">Pilih</option>
+                    <option value="yes">Ya</option>
+                    <option value="no">Tidak</option>
+                </select>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 Miranti & Aldi | <a href="mailto:email@example.com">Kontak Kami</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
